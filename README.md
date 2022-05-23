@@ -1,4 +1,7 @@
+# Astral Radiance Tracker
+
+
 ## TODO
-Import CSV
-Trainer Gallery
-Collection Stats# atral-radiance-tracker
+ - Import CSV
+ - Trainer Gallery
+ - Collection Stats
