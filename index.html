@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="scripts/main.js"></script> 
+    <title>Card Tracker</title>
+</head>
+<body onload="checkLocalStorage(), drawPage()">
+    <div id="banner">
+        <img class="logo" src="images/banners/Astral-Radiance-Banner.png">
+        <button class="trainer-gallery">Trainer Gallery</button>
+    </div>
+    <div class="import-export">
+        <button class="import-button" onclick="">Import</button>
+        <button class="export-button" onclick="downloadBlob(localStorageToCSV(), 'astral_radiance_cardlist.csv', 'text/csv;charset=utf-8;')">Export</button>
+    </div>
+    <div id="container"></div>
+</body>
+</html>
