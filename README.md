@@ -3,5 +3,5 @@
 
 ## TODO
  - Import CSV
- - Trainer Gallery
+ - Trainer Gallery & Promos
  - Collection Stats
