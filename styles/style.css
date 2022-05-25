@@ -68,11 +68,12 @@ body {
     align-items: center; 
     color: white; 
     font-size: 20px;
+    margin: 0px 15px;
 }
 
 .add_a, .add_b, .minus_a, .minus_b {
     transform: scale(1.5);
-    padding: 0px 15px;
+    padding: 5px;
 }
 
 .add_a:hover, .add_b:hover, .minus_a:hover, .minus_b:hover {
