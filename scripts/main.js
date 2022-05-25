@@ -128,3 +128,8 @@ function downloadBlob(content, filename, contentType) {
     pom.setAttribute('download', filename);
     pom.click();
 }
+
+function clearData() {
+    localStorage.clear()
+    location.reload()
+}

@@ -5,3 +5,4 @@
  - Import CSV
  - Trainer Gallery & Promos
  - Collection Stats
+ - Clear Data

@@ -92,7 +92,7 @@ body {
     margin: 0px 18px;
 }
 
-.import-button, .export-button, .trainer-gallery {
+.import-button, .export-button, .clear-data-button {
     background-color: rgb(50, 50, 50);
     border-radius: 4px;
     border-style: none;
